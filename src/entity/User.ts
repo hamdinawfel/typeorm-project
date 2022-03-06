@@ -3,7 +3,6 @@ import { Entity, Column, OneToMany } from "typeorm";
 
 import Model from "./Model";
 import { Post } from "./Post";
-import { Profile } from "./Profile";
 
 @Entity("users")
 export class User extends Model {
