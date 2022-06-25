@@ -9,7 +9,7 @@ import { Profile } from "./entity/Profile";
 
 const app = express();
 app.use(express.json());
-/* users route */
+
 // CREATE
 app.post("/users", async (req: Request, res: Response) => {
   const { name, email, role } = req.body;
